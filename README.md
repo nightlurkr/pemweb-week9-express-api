@@ -5,6 +5,8 @@ Data produk masih disimpan di dalam array, belum memakai database.
 
 Ryan Adya Purwanto - 5027231046
 
+Repository: https://github.com/nightlurkr/pemweb-week9-express-api
+
 ## Prasyarat
 
 - Node.js versi 18 atau lebih baru
@@ -104,4 +106,5 @@ Jika `name` kosong atau `price` bukan angka positif, server membalas status `400
 Data disimpan di dalam array pada proses yang sedang berjalan. Setiap kali server
 dimatikan dan dinyalakan ulang, data kembali ke dua produk awal.
 
-Bukti pengujian seluruh endpoint ada di `bukti-pengujian.md`.
+Bukti pengujian seluruh endpoint ada di `bukti-pengujian.md`, lengkap dengan
+screenshot Thunder Client di folder `screenshot/`.
